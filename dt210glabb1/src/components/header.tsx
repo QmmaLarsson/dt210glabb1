@@ -1,4 +1,4 @@
-import './header.css';
+import './Header.css';
 
 // Typ för headerns prop
 type TitleProp = {

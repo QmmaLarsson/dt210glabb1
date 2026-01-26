@@ -1,4 +1,4 @@
-import './banner.css';
+import './Banner.css';
 
 // Komponent som visar en banner (omslagsbild)
 function Banner() {

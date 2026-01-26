@@ -1,4 +1,4 @@
-import './footer.css';
+import './Footer.css';
 
 // Komponent för footer
 function Footer() {

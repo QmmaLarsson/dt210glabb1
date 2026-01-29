@@ -27,6 +27,18 @@ const MountainArr: Mountain[] = [
         country: "Nepal",
         height: 8808,
         isClimbed: false
+    },
+    {
+        name: "Kilimanjaro",
+        country: "Tanzania",
+        height: 5895,
+        isClimbed: false
+    },
+    {
+        name: "Ben Nevis",
+        country: "Storbritannien",
+        height: 1344,
+        isClimbed: true
     }
 ]
 
@@ -37,11 +49,9 @@ function MountainCard() {
             {MountainArr.map((mountain, index) =>
                 <article key={index}>
                     <h3>{mountain.name}</h3>
-                    <p>Land: {mountain.country}</p>
-                    <p>Höjd: {mountain.height} m</p>
-                    <p>
-                        Bestigen: {mountain.isClimbed ? "Ja" : "Nej"}
-                    </p>
+                    <p><strong>Land:</strong> {mountain.country}</p>
+                    <p><strong>Höjd:</strong> {mountain.height} m</p>
+                    <p><strong>Bestigen:</strong> {mountain.isClimbed ? "Ja" : "Nej"}</p>
                 </article>
             )}
         </section>

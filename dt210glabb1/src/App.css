@@ -13,4 +13,6 @@ main {
     flex: 1;
     text-align: center;
     background-color: #f2f5f8;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }

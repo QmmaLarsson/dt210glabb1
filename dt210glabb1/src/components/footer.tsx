@@ -1,6 +1,6 @@
 import './Footer.css';
 
-// Komponent för footer
+//Komponent för footer
 function Footer() {
     return <footer>
         <p>Laborationsuppgift för kursen DT210G, Fullstack-utveckling med ramverk <br /> &copy; Copyright Emma Larsson,

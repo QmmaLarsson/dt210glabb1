@@ -1,6 +1,6 @@
 import './MountainCard.css';
 
-// En mall för hur varje objekts (bergs) data ska se ut
+//En mall för hur varje objekts (bergs) data ska se ut
 interface Mountain {
     name: string,
     country: string,
@@ -8,7 +8,7 @@ interface Mountain {
     isClimbed: boolean
 }
 
-// En objektarray med berg
+//En objektarray med berg
 const MountainArr: Mountain[] = [
     {
         name: "Kebnekaise",
@@ -30,7 +30,7 @@ const MountainArr: Mountain[] = [
     }
 ]
 
-// En funktion som renderar berg utifrån objektarrayen
+//En funktion som renderar berg utifrån objektarrayen
 function MountainCard() {
     return (
         <section>

@@ -1,0 +1,16 @@
+.page {
+    max-width: 1920px;
+    box-shadow: -16px 0 20px -18px rgba(0, 0, 0, 0.15), 16px 0 20px -18px rgba(0, 0, 0, 0.15);
+    margin-inline: auto;
+    min-height: 100vh;
+    /*Stapla header, main och footer*/
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /*Tar upp all överflödig yta (header plaeras i toppen och footern i botten)*/
+    flex: 1;
+    text-align: center;
+    background-color: #f2f5f8;
+}

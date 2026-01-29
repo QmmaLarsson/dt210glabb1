@@ -8,7 +8,7 @@ function Banner() {
                 srcSet="/images/bilserie002.jpg"
                 type="image/jpg"
             />
-            <img src="/images/bilserie002.jpg" alt="banner" />
+            <img src="/images/bilserie002.jpg" alt="Bergslandskap" />
         </picture>
     </div>
 }

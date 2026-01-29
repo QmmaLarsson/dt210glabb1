@@ -36,7 +36,7 @@ function MountainCard() {
         <section>
             {MountainArr.map((mountain, index) =>
                 <article key={index}>
-                    <h2>{mountain.name}</h2>
+                    <h3>{mountain.name}</h3>
                     <p>Land: {mountain.country}</p>
                     <p>Höjd: {mountain.height} m</p>
                     <p>

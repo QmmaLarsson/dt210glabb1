@@ -8,13 +8,15 @@ function App() {
 
   return (
     <>
-      <Header title='Titel' />
+    <div className='page'>
+      <Header title='MINA BERG' />
       <Banner />
       <main>
       <h2>Berg</h2>
       <MountainCard />
       </main>
       <Footer />
+      </div>
     </>
   )
 }

@@ -1,4 +1,4 @@
-# Laborationsuppgift 1 för kursen DT210G, Fullstack-utveckling med ramverk
+# Laborationsuppgift 1 för kursen DT210G, Fördjupad frontend-utveckling
 **Namn:** Emma Larsson\
 **Student-ID:** emla2309\
 **Syfte med uppgift:**
